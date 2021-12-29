@@ -1,5 +1,6 @@
 package com.example.rockonandroidapp
 
+import android.app.AlertDialog
 import android.graphics.Point
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,10 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.annotation.RequiresApi
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.DialogInterface
+
+
+
 
 
 
@@ -77,6 +82,16 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener {
             }
         }
         return true
+    }
+
+    override fun onBackPressed() {
+        AlertDialog.Builder(this)
+            .setIcon(android.R.drawable.ic_dialog_alert)
+            .setTitle("Closing Activity")
+            .setMessage("Are you sure you want to close rock-on?")
+            .setPositiveButton("Yes", { dialog, which -> finish() })
+            .setNegativeButton("No", null)
+            .show()
     }
 }
 
