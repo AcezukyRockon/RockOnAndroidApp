@@ -1,6 +1,20 @@
 # RockOnAndroidApp
 My Android App
 
+Features:
+- Count numbers of time tapping the button
+- Enable/Disable counter
+- Moving object
+
+How to use this repository:
+- Clone or download zip this repository to your computer
+- Install [Android Studio](https://developer.android.com/studio/install)
+- Open Android Studio > Open cloned project
+- Let Android Studio install Gradle and stuffs
+- Install Kotlin Plugin (File > Settings > Plugins > Search for Kotlin)
+- Connect your Android phone to computer or [create your own AVD](https://developer.android.com/studio/run/managing-avds)
+- Click the Run 'app' button (Shift + F10)
+
 Trying:
 [ ] Learn more about Activity, Adapters,...
 [ ] Find a way to display view onTouch
@@ -8,11 +22,6 @@ Trying:
 [ ] Kamailio server
 [ ] Database with Knex and Tmux (DBeaver or MySQL)
 [ ] Docker?
-
-Features:
-- Count numbers of time tapping the button
-- Enable/Disable counter
-- Moving object
 
 References:
 - [Main Android Studio document](https://developer.android.com/docs)
@@ -24,11 +33,4 @@ References:
 - [Alert dialog for back button](https://stackoverflow.com/questions/2257963/how-to-show-a-dialog-to-confirm-that-the-user-wishes-to-exit-an-android-activity)
 - [Move view](https://gist.github.com/emedinaa/135f89d288ba64db0fe21951b396c58c)
 
-How to use this repository:
-- Clone or download zip this repository to your computer
-- Install [Android Studio](https://developer.android.com/studio/install)
-- Open Android Studio > Open cloned project
-- Let Android Studio install Gradle and stuffs
-- Install Kotlin Plugin (File > Settings > Plugins > Search for Kotlin)
-- Connect your Android phone to computer or [create your own AVD](https://developer.android.com/studio/run/managing-avds)
-- Click the Run 'app' button (Shift + F10)
+
