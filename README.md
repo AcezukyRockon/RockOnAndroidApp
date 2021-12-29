@@ -16,12 +16,12 @@ How to use this repository:
 - Click the Run 'app' button (Shift + F10)
 
 Trying:
-[ ] Learn more about Activity, Adapters,...
-[ ] Find a way to display view onTouch
-[ ] Jenkin Automation Test
-[ ] Kamailio server
-[ ] Database with Knex and Tmux (DBeaver or MySQL)
-[ ] Docker?
+- [ ] Learn more about Activity, Adapters,...
+- [ ] Find a way to display view onTouch
+- [ ] Jenkin Automation Test
+- [ ] Kamailio server
+- [ ] Database with Knex and Tmux (DBeaver or MySQL)
+- [ ] Docker?
 
 References:
 - [Main Android Studio document](https://developer.android.com/docs)
