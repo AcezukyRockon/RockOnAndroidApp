@@ -5,6 +5,7 @@ Features:
 - Count numbers of time tapping the button
 - Enable/Disable counter
 - Moving object
+- Pressing Back button to close application
 
 How to use this repository:
 - Clone or download zip this repository to your computer
